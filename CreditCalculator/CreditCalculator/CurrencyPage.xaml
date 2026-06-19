@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreditCalculator.CurrencyPage"
+             Title="Курсы валют">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="20">
+
+            <!-- Заголовок -->
+            <Label Text="Курсы валют ЦБ РФ"
+                   StyleClass="welcomeTitle"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+
+            <BoxView HeightRequest="2" Color="#BDC3C7" Margin="0,10,0,20"/>
+
+            <!-- Выбор валюты -->
+            <Label Text="Выберите валюту:"
+                   StyleClass="label-result"
+                   Margin="0,0,0,5"/>
+
+            <Picker x:Name="currencyPicker"
+                    StyleClass="picker"
+                    Title="Выберите валюту">
+                <Picker.Items>
+                    <x:String>Доллар США (USD)</x:String>
+                    <x:String>Евро (EUR)</x:String>
+                    <x:String>Фунт стерлингов (GBP)</x:String>
+                    <x:String>Швейцарский франк (CHF)</x:String>
+                    <x:String>Китайский юань (CNY)</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Слайдер для выбора суммы -->
+            <Label Text="Сумма (тыс. ₽):"
+                   StyleClass="label-result"
+                   Margin="0,15,0,5"/>
+
+            <Slider x:Name="amountSlider"
+                    StyleClass="slider"
+                    Minimum="0"
+                    Maximum="100"
+                    Value="50"
+                    ValueChanged="AmountSlider_ValueChanged"/>
+
+            <Label x:Name="amountLabel"
+                   StyleClass="label-result"
+                   Text="50 000 ₽"
+                   HorizontalTextAlignment="Center"/>
+
+            <!-- Информация о курсе -->
+            <Frame StyleClass="infoFrame"
+                   CornerRadius="10"
+                   Padding="15"
+                   Margin="0,20,0,0"
+                   BackgroundColor="#F0F4F8"
+                   HasShadow="True">
+                <StackLayout>
+                    <Label x:Name="currencyInfoLabel"
+                           Text="Выберите валюту и нажмите кнопку"
+                           StyleClass="label-result"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Frame>
+
+            <!-- Кнопка Button (Вариант 1) -->
+            <Button x:Name="showButton"
+                    Text="ПОКАЗАТЬ КУРС"
+                    StyleClass="button"
+                    Clicked="ShowButton_Clicked"
+                    Margin="0,15,0,0"/>
+
+            <!-- Результат -->
+            <Label x:Name="resultLabel"
+                   StyleClass="label-result"
+                   Text=""
+                   HorizontalTextAlignment="Center"
+                   Margin="0,15,0,0"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

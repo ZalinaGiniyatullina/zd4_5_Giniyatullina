@@ -1,0 +1,13 @@
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\actool\_ProcessedImageAssetsPath.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\ibtool\_ProcessedInterfaceDefinitionsPath.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\_ProcessedBundleResourcesPath.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\_ProcessedContentPath.items
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\optimized\
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\CreditCalculator.iOS.csproj.AssemblyReference.cache
+C:\Users\79678\Desktop\дз\Мирош\CreditCalculator\CreditCalculator.iOS\obj\iPhone\Debug\CreditCalculator.iOS.csproj.CoreCompileInputs.cache

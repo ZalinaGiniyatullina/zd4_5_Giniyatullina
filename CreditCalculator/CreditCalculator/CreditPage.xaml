@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreditCalculator.CreditPage"
+             Title="Кредитный калькулятор">
+
+    <!-- Подключение CSS стилей -->
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="20">
+
+            <!-- Поле для ввода суммы кредита -->
+            <Label Text="Сумма кредита"
+                   StyleClass="label-result"/>
+            <Entry x:Name="sumEntry"
+                   StyleClass="inputEntry"
+                   Keyboard="Numeric"
+                   Placeholder="Введите сумму"/>
+
+            <!-- Поле для ввода срока кредита -->
+            <Label Text="Срок (месяцев)"
+                   StyleClass="label-result"/>
+            <Entry x:Name="monthEntry"
+                   StyleClass="inputEntry"
+                   Keyboard="Numeric"
+                   Placeholder="Введите срок"/>
+
+            <!-- Слайдер для выбора процентной ставки -->
+            <Label Text="Процентная ставка"
+                   StyleClass="label-result"/>
+            <Slider x:Name="rateSlider"
+                    StyleClass="slider"
+                    Minimum="1"
+                    Maximum="30"
+                    Value="5"
+                    ValueChanged="RateSlider_ValueChanged"/>
+            <Label x:Name="rateLabel"
+                   StyleClass="label-result"
+                   Text="5 %"/>
+
+            <!-- Выбор вида платежа -->
+            <Label Text="Вид платежа"
+                   StyleClass="label-result"/>
+            <Picker x:Name="paymentPicker"
+                    StyleClass="picker">
+                <Picker.Items>
+                    <x:String>Аннуитетный</x:String>
+                    <x:String>Дифференцированный</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <!-- Кнопка рассчета -->
+            <Button Text="Рассчитать"
+                    StyleClass="button"
+                    Clicked="Calculate_Clicked"/>
+
+            <!-- Результаты -->
+            <Label x:Name="monthlyLabel"
+                   StyleClass="label-result"
+                   Text="Ежемесячный платеж:"/>
+
+            <Label x:Name="totalLabel"
+                   StyleClass="label-result"
+                   Text="Общая сумма:"/>
+
+            <Label x:Name="overpaymentLabel"
+                   StyleClass="label-result"
+                   Text="Переплата:"/>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

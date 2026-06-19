@@ -1,0 +1,132 @@
+﻿/* Стили для всей страницы Welcome */
+^contentpage {
+    background-color: #F5F5F5;
+}
+
+/* Стили для StackLayout на странице Welcome */
+.welcomeLayout {
+    margin: 20;
+    padding: 20;
+}
+
+/* Стиль для заголовка Welcome */
+.welcomeTitle {
+    color: #2C3E50;
+    font-size: 32;
+    text-align: center;
+}
+
+/* Стиль для поля ввода */
+.inputEntry {
+    background-color: white;
+    border-color: #BDC3C7;
+    border-width: 1;
+    padding: 10;
+    font-size: 16;
+    text-align: left;
+}
+
+/* Стиль для кнопки Sign In */
+.signInButton {
+    background-color: #3498DB;
+    color: white;
+    font-size: 18;
+    font-weight: bold;
+    border-radius: 5;
+    padding: 15;
+    text-align: center;
+}
+
+    /* Стиль для кнопки при нажатии (активное состояние) */
+    .signInButton:active {
+        background-color: #2980B9;
+        opacity: 0.8;
+    }
+
+/* Стили для вкладок */
+tabbedpage {
+    background-color: #ECF0F1;
+}
+
+/* Стиль для заголовков страниц */
+page {
+    background-color: #FFFFFF;
+}
+
+/* Стили для полей ввода в CreditPage */
+entry {
+    background-color: white;
+    border-color: #BDC3C7;
+    border-width: 1;
+    padding: 8;
+    font-size: 14;
+}
+
+/* Стили для меток */
+label {
+    font-size: 14;
+    color: #2C3E50;
+}
+
+/* Стиль для кнопки "Рассчитать" */
+button {
+    background-color: #27AE60;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    border-radius: 5;
+    padding: 10;
+    text-align: center;
+}
+
+/* Стиль для слайдера */
+slider {
+    background-color: #3498DB;
+}
+
+/* Стиль для пикера */
+picker {
+    background-color: white;
+    padding: 5;
+}
+
+/* Стили для результатов */
+.label-result {
+    font-size: 16;
+    font-weight: bold;
+    color: #2C3E50;
+}
+/* Стили для информационной панели */
+.infoFrame {
+    background-color: #F0F4F8;
+    border-color: #3498DB;
+    border-width: 1;
+}
+
+/* Стиль для кнопки на CurrencyPage */
+.button-currency {
+    background-color: #9B59B6;
+    color: white;
+    font-size: 16;
+    font-weight: bold;
+    border-radius: 5;
+    padding: 12;
+    text-align: center;
+}
+
+/* Стиль для результата */
+.result-value {
+    font-size: 20;
+    font-weight: bold;
+    color: #27AE60;
+    text-align: center;
+}
+
+/* Стиль для рамки с курсом */
+.currency-frame {
+    background-color: #E8F0FE;
+    border-color: #3498DB;
+    border-width: 1;
+    border-radius: 10;
+    padding: 15;
+}

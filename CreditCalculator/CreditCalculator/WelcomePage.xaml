@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CreditCalculator.WelcomePage"
+             Title="Добро пожаловать">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout StyleClass="welcomeLayout" Padding="30">
+
+            <!-- Заголовок -->
+            <Label Text="Добро пожаловать!" 
+                   StyleClass="welcomeTitle"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"/>
+
+            <!-- Поле для ввода фамилии -->
+            <Label Text="Введите вашу фамилию:" 
+                   FontSize="16"
+                   Margin="0,30,0,5"/>
+
+            <Entry x:Name="surnameEntry"
+                   Placeholder="Введите фамилию"
+                   StyleClass="inputEntry"
+                   Margin="0,0,0,15"/>
+
+            <!-- Кнопка Sign In -->
+            <Button x:Name="signInButton"
+                    Text="SIGN IN"
+                    StyleClass="signInButton"
+                    Clicked="SignInButton_Clicked"
+                    Margin="0,20,0,0"/>
+
+            <!-- Метка для отображения ошибок -->
+            <Label x:Name="errorLabel"
+                   Text=""
+                   TextColor="Red"
+                   IsVisible="False"
+                   HorizontalTextAlignment="Center"
+                   Margin="0,10,0,0"/>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

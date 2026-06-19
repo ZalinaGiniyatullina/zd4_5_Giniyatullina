@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCalculator.Android", "CreditCalculator.Android\CreditCalculator.Android.csproj", "{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCalculator.iOS", "CreditCalculator.iOS\CreditCalculator.iOS.csproj", "{6256E05B-C4D6-480C-B920-3536204A826C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreditCalculator", "CreditCalculator\CreditCalculator.csproj", "{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97D975D-FBDE-4741-9EA4-C4ACE2669A5D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6256E05B-C4D6-480C-B920-3536204A826C}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{6256E05B-C4D6-480C-B920-3536204A826C}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{6256E05B-C4D6-480C-B920-3536204A826C}.Debug|Any CPU.Deploy.0 = Debug|iPhone
+		{6256E05B-C4D6-480C-B920-3536204A826C}.Release|Any CPU.ActiveCfg = Release|iPhoneSimulator
+		{6256E05B-C4D6-480C-B920-3536204A826C}.Release|Any CPU.Build.0 = Release|iPhoneSimulator
+		{6256E05B-C4D6-480C-B920-3536204A826C}.Release|Any CPU.Deploy.0 = Release|iPhoneSimulator
+		{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03BB4309-C38A-4628-BE14-FA3A20BF6BBA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5DF3FB8A-B350-4B5E-8E63-FF8399E05235}
+	EndGlobalSection
+EndGlobal
